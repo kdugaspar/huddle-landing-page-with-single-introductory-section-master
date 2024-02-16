@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@media print {
+    /* IMPRESSÃO */
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* TABLET */
+    
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* DESKTOP */
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* GRANDES TELAS */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        background-image: url(/images/bg-desktop.svg);
+        background-color: #674bb1;
+        display: grid;
+        grid-template-columns: 48rem 1fr;
+        grid-template-rows:7rem 35rem;
+        
+    }
+    header{
+        background-color: rgba(240, 225, 9, 0);
+        grid-column: 1 / -1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 17rem;
+    }
+    .logo{
+        width: 13rem;
+    }
+    section{
+        background-color: rgba(0, 128, 0, 0);
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .foto{
+        
+    }
+    article{
+        background-color: rgba(255, 192, 203, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items:start;
+        height: 17rem;
+        gap: 1rem;
+        padding: 3rem;
+    }
+    h1{
+    color: white;
+    background-color: #664bb100;
+    font-size: 2rem;
+    width: 25rem;
+    font-family: "Open Sans", sans-serif;
+    }
+    p{
+    color: rgb(223, 221, 221);
+    background-color: #664bb100;
+    width: 29rem;
+    font-family: "Open Sans", sans-serif;
+    }
+    input{
+        border: 1px solid rgba(0, 0, 0, 0.123);
+        box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.377);
+        color: #674bb1;
+        padding: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        font-size: 0.9rem;
+        cursor: pointer;
+        width: 9rem;
+        border-radius: 1rem;
+    }
+    footer{
+        display: flex;
+        justify-content: flex-end;
+        background-color: rgba(222, 184, 135, 0);
+        grid-column: 2 / -1;
+        width: 32rem;
+        height: 3rem;   
+    }
+}
