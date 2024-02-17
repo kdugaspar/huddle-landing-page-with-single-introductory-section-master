@@ -26,9 +26,7 @@ header {
     width: 10.7rem;
 }
 
-.logo {
-    width: 8.5rem;
-}
+.logo {width: 8.5rem;}
 
 section {
     background-color: rgba(0, 128, 0, 0);
