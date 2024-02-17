@@ -37,9 +37,7 @@ section {
     align-items: flex-start; 
 }
 
-.foto {
-    width: 20rem;
-}
+.foto { width: 20rem;}
 
 article {
     background-color: rgba(205, 92, 92, 0);
