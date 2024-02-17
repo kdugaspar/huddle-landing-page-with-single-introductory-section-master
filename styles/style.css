@@ -9,23 +9,25 @@
 body {
     background-image: url(/images/bg-mobile.svg);
     background-repeat: no-repeat;
+    background-position: top;
+    background-size: 25rem;
     background-color: #674bb1;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows:10rem 19rem 19rem 4rem;
+    grid-template-rows:8.2rem 18rem 19rem 4rem;
 
 }
 
 header {
     background-color: rgba(172, 172, 20, 0);
-    height: 8rem;
+    height: 6rem;
     display: flex;
     justify-content:flex-end;
-    width: 11.7rem;
+    width: 10.7rem;
 }
 
 .logo {
-    width: 9rem;
+    width: 8.5rem;
 }
 
 section {
@@ -51,8 +53,8 @@ article {
 h1 {
     color: white;
     background-color: #afd81a00;
-    font-size: 2rem;
-    width: 22rem;
+    font-size: 1.4rem;
+    width: 16rem;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     
@@ -63,6 +65,7 @@ p {
     background-color: #4a0feb00;
     font-size: 0.9rem;
     width: 17rem;
+    height: 6.5rem;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-family: "Open Sans", sans-serif;
