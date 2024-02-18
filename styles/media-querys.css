@@ -26,6 +26,10 @@
     }
     body{
         background-image: url(/images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 25rem;
+        
         background-color: #674bb1;
         display: grid;
         grid-template-columns: 48rem 1fr;
@@ -53,7 +57,7 @@
         width: 44.313rem; 
     }
     article{
-        background-color: rgba(255, 192, 203, 0.795);
+        background-color: rgba(255, 192, 203, 0);
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -64,7 +68,7 @@
     }
     h1{
     color: white;
-    background-color: #664bb194;
+    background-color: #664bb100;
     text-align: left;
     font-size: 2rem;
     width: 25rem;
@@ -72,8 +76,9 @@
     }
     p{
     color: rgb(223, 221, 221);
-    background-color: #5122d39c;
+    background-color: #5122d300;
     width: 26rem;
+    height: 4rem;
     font-family: "Open Sans", sans-serif;
     text-align: left;
     }
