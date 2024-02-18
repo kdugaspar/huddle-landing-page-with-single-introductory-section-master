@@ -27,9 +27,10 @@
     body{
         background-image: url(/images/bg-desktop.svg);
         background-repeat: no-repeat;
-        background-position: top;
-        background-size: 25rem;
-        
+        background-position-y: 30%;
+        background-position-x: 30%;
+        background-size: 75rem;
+
         background-color: #674bb1;
         display: grid;
         grid-template-columns: 48rem 1fr;
