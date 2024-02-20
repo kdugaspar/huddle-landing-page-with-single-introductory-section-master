@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(/images/bg-mobile.svg);
+    background-image: url(../images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 25rem;
