@@ -16,7 +16,7 @@
 
     body {
        
-        background-image: url(/images/bg-mobile.svg);
+        background-image: url(../images/bg-mobile.svg);
         background-repeat: no-repeat;
         background-position-y: 1%;
         background-position-x: 50%;
@@ -119,7 +119,7 @@
     padding: 0;
     }
     body{
-        background-image: url(/images/bg-desktop.svg);
+        background-image: url(../images/bg-desktop.svg);
         background-repeat: no-repeat;
         background-position-y: 30%;
         background-position-x: -80%;
@@ -222,7 +222,7 @@
     padding: 0;
     }
     body{
-        background-image: url(/images/bg-desktop.svg);
+        background-image: url(../images/bg-desktop.svg);
         background-repeat: no-repeat;
         background-position-y: 4%;
         background-position-x: 30%;
