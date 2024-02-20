@@ -259,7 +259,7 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items:start;
-        height: 20rem;
+        height: 18.3rem;
         gap: 1rem;
         padding: 3rem;
     }
@@ -272,6 +272,8 @@
     font-family: "Open Sans", sans-serif;
     }
     p{
+    display: flex;
+    align-items: flex-end;
     color: rgb(223, 221, 221);
     background-color: #5122d300;
     width: 26rem;
