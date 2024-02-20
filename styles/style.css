@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(/images/bg-desktop.svg);
+    background-image: url(/images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 25rem;
@@ -79,7 +79,10 @@ input {
     width: 12rem;
     border-radius: 1rem;
 }
-
+input:hover{
+    background-color: #e980e7;
+    color: white;
+}
 footer { background-color: rgba(212, 0, 255, 0);
     display: flex;
     justify-content: center;
