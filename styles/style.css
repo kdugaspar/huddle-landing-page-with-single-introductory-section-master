@@ -84,3 +84,15 @@ footer { background-color: rgba(212, 0, 255, 0);
     display: flex;
     justify-content: center;
 }
+.fa-brands{
+    text-align: center;
+    color: white;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    width: 1rem;
+    padding: 0.4rem;
+}
+.fa-brands:hover{
+    color: #e980e7;
+    border: 0.1rem solid #e980e7;
+}

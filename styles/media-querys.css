@@ -95,6 +95,18 @@
         justify-content: center;
         align-items: flex-end;
     }
+    .fa-brands{
+        text-align: center;
+        color: white;
+        border: 0.1rem solid white;
+        border-radius: 2rem;
+        width: 1rem;
+        padding: 0.4rem;
+    }
+    .fa-brands:hover{
+        color: #e980e7;
+        border: 0.1rem solid #e980e7;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -184,6 +196,18 @@
         grid-column: 2 / -1;
         width: 29rem;
         height: 3rem;   
+    }
+    .fa-brands{
+        text-align: center;
+        color: white;
+        border: 0.1rem solid white;
+        border-radius: 2rem;
+        width: 1rem;
+        padding: 0.4rem;
+    }
+    .fa-brands:hover{
+        color: #e980e7;
+        border: 0.1rem solid #e980e7;
     }
 }
 
@@ -276,8 +300,15 @@
         justify-content: flex-end;
         background-color: rgba(222, 184, 135, 0);
         grid-column: 2 / -1;
-        width: 32rem;
-        height: 3rem;   
+        width: 30rem;
+        height: 4rem;   
+    }
+    figure{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0.6rem;
     }
     .fa-brands{
         text-align: center;
