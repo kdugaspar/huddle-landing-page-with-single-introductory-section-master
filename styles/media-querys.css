@@ -89,7 +89,7 @@
         width: 15rem;
         border-radius: 2rem;
     }
-    
+
     footer { background-color: rgba(212, 0, 255, 0);
         display: flex;
         justify-content: center;
@@ -266,6 +266,13 @@
         cursor: pointer;
         width: 9rem;
         border-radius: 1rem;
+    }
+    input:hover{
+        background-color: #e980e7;
+        color: white;
+    }
+    .f:hover{
+        backdrop-filter: invert(80%);
     }
     footer{
         display: flex;
